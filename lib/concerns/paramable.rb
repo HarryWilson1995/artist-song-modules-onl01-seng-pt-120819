@@ -4,9 +4,4 @@ module Paramable
     name.downcase.gsub(' ', '-')
   end
   
-  def initialize
-    self.class.all << self
-  end 
-  
-  
 end 
